@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit article</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../Models/Article.js"></script>
+        <script type="text/javascript" src="../View/editarticle.js"></script>
+        
+    </head>
+    <body>
+        <div class="formcontent">
+            <form id="editform">
+                <label for="titleId"><h3>Edit the article title</h3></label>
+                <input type="text" name="title" id="titleId" size="70" /><br><br>
+                <label for="bodyId"><h3>Edit the article body</h3></label>
+                <textarea cols="50" rows="10" name="body" id="bodyId"></textarea><br><br>
+                <input type="button" name="edit" value="Send the new data" id="editbtn"/>
+            </form>
+        </div>
+    </body>
+</html>
